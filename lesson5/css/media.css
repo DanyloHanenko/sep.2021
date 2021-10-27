@@ -1,0 +1,40 @@
+@media screen and (max-width: 400px) {
+    .container__menu {
+        display: none;
+    }
+
+    .container__logo img {
+        width: 50px;
+
+    }
+
+    .wrapper {
+       max-width: 350px;
+        padding: 0 10px;
+    }
+
+    .container__top {
+        padding-top: 20px;
+    }
+
+    .nav__btn_mobile {
+    display: flex;
+    }
+
+    .container__title h2 {
+        font-size: 30px;
+    }
+
+    .container__title h1 {
+        font-size: 40px;
+    }
+
+    .container__title p::before,
+    .container__title p::after {
+        display: none;
+    }
+}
+
+
+
+
